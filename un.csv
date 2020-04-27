@@ -1,5 +1,3 @@
-un,,,
-Country or Area,Source,Unit,Value
 Afghanistan,"UN_Demographic and Health Surveys (DHS), Multiple Indicator Cluster Surveys (MICS) and other national surveys (2002-2011)",Percent,10
 Albania,"UN_Demographic and Health Surveys (DHS), Multiple Indicator Cluster Surveys (MICS) and other national surveys (2002-2011)",Percent,12
 Algeria,"UN_Demographic and Health Surveys (DHS), Multiple Indicator Cluster Surveys (MICS) and other national surveys (2002-2011)",Percent,5
@@ -28,13 +26,12 @@ Colombia,"UN_Demographic and Health Surveys (DHS), Multiple Indicator Cluster Su
 Comoros,"UN_Demographic and Health Surveys (DHS), Multiple Indicator Cluster Surveys (MICS) and other national surveys (2002-2011)",Percent,27
 Congo,"UN_Demographic and Health Surveys (DHS), Multiple Indicator Cluster Surveys (MICS) and other national surveys (2002-2011)",Percent,25
 Costa Rica,"UN_Demographic and Health Surveys (DHS), Multiple Indicator Cluster Surveys (MICS) and other national surveys (2002-2011)",Percent,5
-C™te d'Ivoire,"UN_Demographic and Health Surveys (DHS), Multiple Indicator Cluster Surveys (MICS) and other national surveys (2002-2011)",Percent,35
+Câ„¢te d'Ivoire,"UN_Demographic and Health Surveys (DHS), Multiple Indicator Cluster Surveys (MICS) and other national surveys (2002-2011)",Percent,35
 Djibouti,"UN_Demographic and Health Surveys (DHS), Multiple Indicator Cluster Surveys (MICS) and other national surveys (2002-2011)",Percent,8
 Dominican Republic,"UN_Demographic and Health Surveys (DHS), Multiple Indicator Cluster Surveys (MICS) and other national surveys (2002-2011)",Percent,13
 Ecuador,"UN_Demographic and Health Surveys (DHS), Multiple Indicator Cluster Surveys (MICS) and other national surveys (2002-2011)",Percent,8
 Egypt,"UN_Demographic and Health Surveys (DHS), Multiple Indicator Cluster Surveys (MICS) and other national surveys (2002-2011)",Percent,7
 El Salvador,"UN_Demographic and Health Surveys (DHS), Multiple Indicator Cluster Surveys (MICS) and other national surveys (2002-2011)",Percent,5
-Equatorial Guinea,"UN_Demographic and Health Surveys (DHS), Multiple Indicator Cluster Surveys (MICS) and other national surveys (2002-2011)",Percent,28
 Ethiopia,"UN_Demographic and Health Surveys (DHS), Multiple Indicator Cluster Surveys (MICS) and other national surveys (2002-2011)",Percent,27
 Gambia,"UN_Demographic and Health Surveys (DHS), Multiple Indicator Cluster Surveys (MICS) and other national surveys (2002-2011)",Percent,19
 Georgia,"UN_Demographic and Health Surveys (DHS), Multiple Indicator Cluster Surveys (MICS) and other national surveys (2002-2011)",Percent,18
@@ -84,8 +81,6 @@ Senegal,"UN_Demographic and Health Surveys (DHS), Multiple Indicator Cluster Sur
 Serbia,"UN_Demographic and Health Surveys (DHS), Multiple Indicator Cluster Surveys (MICS) and other national surveys (2002-2011)",Percent,4
 Sierra Leone,"UN_Demographic and Health Surveys (DHS), Multiple Indicator Cluster Surveys (MICS) and other national surveys (2002-2011)",Percent,26
 Somalia,"UN_Demographic and Health Surveys (DHS), Multiple Indicator Cluster Surveys (MICS) and other national surveys (2002-2011)",Percent,49
-South Asia,"UN_Demographic and Health Surveys (DHS), Multiple Indicator Cluster Surveys (MICS) and other national surveys (2002-2011)",Percent,12
-Sub-Saharan Africa,"UN_Demographic and Health Surveys (DHS), Multiple Indicator Cluster Surveys (MICS) and other national surveys (2002-2011)",Percent,27
 Sudan,"UN_Demographic and Health Surveys (DHS), Multiple Indicator Cluster Surveys (MICS) and other national surveys (2002-2011)",Percent,13
 Suriname,"UN_Demographic and Health Surveys (DHS), Multiple Indicator Cluster Surveys (MICS) and other national surveys (2002-2011)",Percent,6
 Swaziland,"UN_Demographic and Health Surveys (DHS), Multiple Indicator Cluster Surveys (MICS) and other national surveys (2002-2011)",Percent,7
@@ -102,6 +97,5 @@ Ukraine,"UN_Demographic and Health Surveys (DHS), Multiple Indicator Cluster Sur
 Uruguay,"UN_Demographic and Health Surveys (DHS), Multiple Indicator Cluster Surveys (MICS) and other national surveys (2002-2011)",Percent,8
 Venezuela,"UN_Demographic and Health Surveys (DHS), Multiple Indicator Cluster Surveys (MICS) and other national surveys (2002-2011)",Percent,8
 Vietnam,"UN_Demographic and Health Surveys (DHS), Multiple Indicator Cluster Surveys (MICS) and other national surveys (2002-2011)",Percent,7
-World,"UN_Demographic and Health Surveys (DHS), Multiple Indicator Cluster Surveys (MICS) and other national surveys (2002-2011)",Percent,15
 Yemen,"UN_Demographic and Health Surveys (DHS), Multiple Indicator Cluster Surveys (MICS) and other national surveys (2002-2011)",Percent,23
 Zambia,"UN_Demographic and Health Surveys (DHS), Multiple Indicator Cluster Surveys (MICS) and other national surveys (2002-2011)",Percent,41
