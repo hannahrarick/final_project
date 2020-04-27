@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width-device-width, initial-scale=1">
+  <link rel="stylesheet" href="{{ "https://fonts.googleapis.com/css2?family=Manrope&display=swap"}}">
+  <link rel="stylesheet" href="{{ url_for('static', filename='main.css') }}">
+</head>
+
+
+<body id=secondpg>
+
+{% block content %}
+<div id=container2>
+
+  <h1 class="country">{{ n.country }}</h1>
+  <p>**The percentage came from a UN Database calculated out of the total population of boys and girls ages 5 to 14 in that country.**</p>
+  <ul>
+    <li><b>Percent of child labor:</b> {{ n.value }}</li>
+    <li><b>Industry:</b> {{ g.industry }}</li>
+  </ul>
+
+  <p><b>List of Popular Goods Children Are Producing:</b> {{ g.goods }}</p>
+
+  <h3>What Social Efforts/Projects are in Place?</h3>
+  <p>The displayed social project is not the only one for this country: <a href="{{ g["social_link"] }}" target="_blank">{{g.social}}</a></p>
+
+  <h3>How Can You Help?</h3>
+  <p>Other than being aware this is happening, there is something in your daily life that you can start doing now. You can start purchasing from Fair Trade certified producers who ensure their products are 'child labor free.' Some producers, while not Fair Trade certified, have links on their website to  confirm their sources or suppliers are up to ethical standard.</p>
+  <p><b>Link to Ethical/Child Labor Free Retailer: </b><a href="{{ g["retailer"] }}" target="_blank">{{g.alternative}}</a></p>
+
+  <p>Source of Information: {{ n.source }}</p>
+  <p><a href="{{ url_for('index') }}">Return to search page</a></p>
+
+
+</div>
+{% endblock %}
+</body>
+</html>

@@ -1,0 +1,40 @@
+{% import "bootstrap/wtf.html" as wtf %}
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width-device-width, initial-scale=1">
+  <title> Child Labor </title>
+  <link rel="stylesheet" href="{{ "https://fonts.googleapis.com/css2?family=Manrope&display=swap"}}">
+  <link rel="stylesheet" href="{{ url_for('static', filename='main.css') }}">
+</head>
+
+<body>
+  <div class="box1">
+    <h1 class="page1"><a href="https://www.theworldcounts.com/stories/Child-Labor-Facts-and-Statistics" target="_blank">More than 200 million children</a> in the world today are not playing outside or gaining an education. Intead, they are being forced to produce the world's most consumed goods.</h1>
+  </div>
+   <div class="box2">
+    <h1 class="page2">Many of the countries with the highest rates of child labor have poor to absolutely no legal reinforcement.<br>And most countries partake in commercial sexual exploitation.</h1>
+  </div>
+   <div class="box3">
+     <h1 class="page3">Below is a list of almost 100 countries detailing the child labor percentage, the type of industries they are in, goods produced by these children and ways you can help.</h1>
+  </div>
+
+<div id=container class="page4">
+
+  <h1>List of Countries Affected by Child Labor</h1>
+
+  <h3>This app will highlight the number of countries with the highest rates of child labor and hopefully shed light to the urgent need to stop it. It will presenst the industries as well as the goods that are made in that country. Additionally, most countries will give a child labor free alternative (popularly known as Fair Trade) to either the goods listed or in general.</h3>
+
+  <h3 class="quote">We all can make a difference.</h3>
+  <h5>{{ wtf.quick_form(form, action=url_for("country_detail"), method="post", id= form) }}</h5>
+
+</div>
+
+<footer>Page done by Hannah Rarick for Advanced Web Apps Course at The University of Florida. <a href="">Github Repo</a><br>Sources of images: <a href="https://unsplash.com/@zeynafuang" target="_blank"> First photo,</a><a href="https://unsplash.com/@dead____artist?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText" target="_blank"> Second photo,</a><a href="https://unsplash.com/@larm?utm_medium=referral&amp;utm_campaign=photographer-credit&amp;utm_content=creditBadge" target="_blank"> Third photo,</a> <a href="https://unsplash.com/@nicknice" target="_blank"> Coal photo</a></footer>
+
+
+
+
+</body>
+</html>
